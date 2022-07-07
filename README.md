@@ -8,7 +8,7 @@ An algorithm is able to classify images(efficiently) by using a Machine Learning
 
 To detect the fastener we use the concept of Deep learning which is a sub part of machine learning and mainly when it comes to image classification, we need to use CNN (Convolutional Neural Networks). A simple version of this model called Sequential is used to train the model to distinguish images into different classes. We have collected the data of 4 classes of fasteners(nuts, bolts, locating pin, and washer), each of 238 types, and this dataset is used to detect the fastener with 97% accuracy. 
 
-![fastenerdetector]('./Static_images/title.png')
+![fastenerdetector](./Static_images/title.png)
 ## Imported Libraries
 
 os: works related to operating system can be done. 
@@ -26,7 +26,7 @@ Seaborn: Seaborn is a python data visualization library based on matplotlib. It 
 
 # Data Processing
 
-![fastenerdetector]('./Static_images/model.png')
+![fastenerdetector](./Static_images/model.png)
 ## Data Collection 
 
 We have worked on 4 classes of fasteners, i.e. (nut,bolt,locating pin,washer). Data of 238 types of each class has been downloaded from different part libraries available on the internet . Each part consists of 8 isometric views and a total of [238(parts)*4(classes)*8(isometric views)], i.e 7616 images were considered a data set for this program.
@@ -51,14 +51,14 @@ Epochs:  These indicate the number of passes of the entire training dataset the 
 We have taken the number of epochs as 9 because beyond this number the model gets over-trained and at this number of epochs value loss is minimum and also accuracy is pretty good. So we took the number of epochs as 9.
 Also, data sets are usually grouped into batches and here we have divided them into groups of 64 . So each batch consists of 7616/64 i..e, 119 number of images.
 
-![fastenerdetector]('./Static_images/layers_model.png')
+![fastenerdetector](./Static_images/layers_model.png)
 
-![fastenerdetector]('./Static_images/result.png')
+![fastenerdetector](./Static_images/result.png)
 
-![fastenerdetector]('./Static_images/graph1.png')
+![fastenerdetector](./Static_images/graph1.png)
 
-![fastenerdetector]('./Static_images/graph2.png')
+![fastenerdetector](./Static_images/graph2.png)
 
-![fastenerdetector]('./Static_images/confusion_matrix.png')
+![fastenerdetector](./Static_images/confusion_matrix.png)
 
  
